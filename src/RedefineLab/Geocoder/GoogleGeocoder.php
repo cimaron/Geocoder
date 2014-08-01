@@ -30,11 +30,12 @@ class GoogleGeocoder implements Geocoder
             return null;
         }
 
+/*
         if (count($this->results->results) != 1)
         {
             return $this->noSingleResultChar;
         }
-
+*/
         return $this->results->results[0]->geometry->location->lat;
     }
 
@@ -44,12 +45,12 @@ class GoogleGeocoder implements Geocoder
         {
             return null;
         }
-
+/*
         if (count($this->results->results) != 1)
         {
             return $this->noSingleResultChar;
         }
-
+*/
         return $this->results->results[0]->geometry->location->lng;
     }
 
