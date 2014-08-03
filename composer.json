@@ -5,6 +5,6 @@
         "php": ">=5.3.3"
     },
     "autoload": {
-        "psr-0": { "Redefinelab\\Geocoder": "src/" }
+        "psr-0": { "RedefineLab\\Geocoder\\": "src/" }
     }
 }
